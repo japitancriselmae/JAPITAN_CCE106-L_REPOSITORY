@@ -5,12 +5,9 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
-       
-        {/* Dashboard Title */}
+
         <Text style={styles.header}>My Custom Dashboard</Text>
-       
-        {/* Rendering multiple cards using props */}
-        {/* Creative Challenge 1: Custom Color Palette applied via bgColor */}
+
         <StatCard
           title="Total Users"
           value="1,240"
@@ -40,7 +37,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a', // Dark theme professional background
+    backgroundColor: '#0f172a', 
   },
   scrollContent: {
     padding: 20,
