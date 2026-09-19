@@ -1,6 +1,6 @@
 export default {
   id: '4',
-  name: 'Loise',
-  image: require('../../assets/images/Loise.png'),
-  course: 'Engineering',
+  name: 'David',
+  image: require('../../assets/images/david.png'),
+  course: 'Nursing',
 };
